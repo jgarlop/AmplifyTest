@@ -1,0 +1,14 @@
+{
+    "atenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplifytest-atenv-20191010101606-authRole",
+            "UnauthRoleArn": "arn:aws:iam::737519117997:role/amplifytest-atenv-20191010101606-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::737519117997:role/amplifytest-atenv-20191010101606-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplifytest-atenv-20191010101606-deployment",
+            "UnauthRoleName": "amplifytest-atenv-20191010101606-unauthRole",
+            "StackName": "amplifytest-atenv-20191010101606",
+            "StackId": "arn:aws:cloudformation:eu-west-2:737519117997:stack/amplifytest-atenv-20191010101606/35b55b70-eb36-11e9-a382-0ab07291f102"
+        }
+    }
+}
