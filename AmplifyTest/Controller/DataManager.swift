@@ -32,19 +32,19 @@ class DataManager {
     }
     
     func runQuery(){
-           appSyncClient?.fetch(query: ListTodosQuery(), cachePolicy: .returnCacheDataAndFetch) {(result, error) in
-               if error != nil {
-                   print(error?.localizedDescription ?? "")
-                   return
-               }
-               print("Query completada")
+        appSyncClient?.fetch(query: ListTodosQuery(), cachePolicy: .returnCacheDataAndFetch) {(result, error) in
+            if error != nil {
+                print(error?.localizedDescription ?? "")
+                return
+            }
+            print("Query completada")
             var index = 0
             result?.data?.listTodos?.items!.forEach {
                 print(String(index) + " :" + ($0?.name)! + " " + ($0?.description)!)
                 index += 1
             }
-           }
-       }
+        }
+    }
 }
 
 
